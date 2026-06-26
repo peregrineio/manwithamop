@@ -1,9 +1,8 @@
 export const SERVICE_TYPES = {
-  standard_clean: { label: "Standard Clean", price: 120, duration: 2 },
-  deep_clean: { label: "Deep Clean", price: 185, duration: 3 },
-  move_in_out: { label: "Move-In/Out Clean", price: 210, duration: 4 },
-  carpet_only: { label: "Carpet Only", price: 85, duration: 1.5 },
-  custom: { label: "Custom", price: 0, duration: 0 },
+  standard_clean: { label: "Standard Clean", price: 120, duration: 2, durationLabel: "2–4 hours" },
+  deep_clean: { label: "Deep Clean", price: 185, duration: 4, durationLabel: "4–6 hours" },
+  move_in_out: { label: "Move-In/Out Clean", price: 210, duration: 4, durationLabel: "~4 hours" },
+  custom: { label: "Custom", price: 0, duration: 0, durationLabel: "Varies" },
 } as const;
 
 export type ServiceType = keyof typeof SERVICE_TYPES;

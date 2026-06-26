@@ -26,8 +26,8 @@ const REVIEWS = [
   {
     name: "James W.",
     city: "Conroe, TX",
-    service: "Carpet Extraction",
-    body: "Got the carpets done after our dog had a rough week. He moved the furniture, treated the spots, and the carpets dried by dinner. Money well spent.",
+    service: "Move-Out Clean",
+    body: "Used him to turn over a rental before new tenants moved in. Spotless, on time, and the landlord didn't have a single note. Money well spent.",
     rating: 5,
   },
   {

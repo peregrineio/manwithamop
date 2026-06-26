@@ -18,17 +18,13 @@ const SERVICES = [
     key: "move_in_out",
     blurb: "Empty-house turnover, deposit-back standard.",
   },
-  {
-    key: "carpet_only",
-    blurb: "Hot-water extraction. Carpets like new-ish.",
-  },
 ] as const;
 
 const REASONS = [
   {
     n: "01",
     title: "Vetted, insured, background-checked",
-    body: "Before a man steps into your home, we've checked him out top to bottom. Bonded and insured, every job.",
+    body: "Before a man steps into your home, we've checked him out top to bottom. Insured, every job.",
   },
   {
     n: "02",
@@ -46,9 +42,9 @@ const MARQUEE_ITEMS = [
   "Standard Clean",
   "Deep Clean",
   "Move-In / Out",
-  "Carpet Extraction",
+  "Homes & Businesses",
   "Cypress to Conroe",
-  "Insured & Bonded",
+  "Insured",
 ];
 
 export default function HomePage() {
@@ -87,7 +83,7 @@ export default function HomePage() {
               style={{ animationDelay: "0.05s" }}
             >
               <span className="size-2 bg-[#E2501C]" />
-              Residential cleaning — Northwest Houston, TX
+              Home &amp; business cleaning — Northwest Houston, TX
             </p>
 
             <h1 className="mt-6 font-extrabold uppercase leading-[0.92] tracking-[-0.025em] text-[clamp(3.2rem,9vw,6.8rem)]">
@@ -146,7 +142,7 @@ export default function HomePage() {
                   <Star key={i} className="size-3.5 fill-current" />
                 ))}
               </span>
-              4.9 · 200+ Houston-area households · Insured &amp; bonded
+              4.9 · 200+ Houston-area households · Insured
             </div>
           </div>
 
@@ -169,7 +165,7 @@ export default function HomePage() {
                 {[
                   ["Client", "The Hendersons"],
                   ["Location", "Cypress, TX"],
-                  ["Service", "Deep Clean — 3 HRS"],
+                  ["Service", "Deep Clean — 4–6 HRS"],
                   ["Man", "Yes (1)"],
                   ["Mop", "Yes (1)"],
                 ].map(([k, v]) => (
@@ -264,7 +260,7 @@ export default function HomePage() {
                     {svc.label}
                   </h3>
                   <p className="hidden sm:block font-site-utility text-[11px] uppercase tracking-[0.12em] text-[#1B1F24]/55">
-                    {s.blurb} · ~{svc.duration} hrs
+                    {s.blurb} · {svc.durationLabel}
                   </p>
                   <p className="font-extrabold text-xl sm:text-2xl text-right">
                     ${svc.price}
@@ -278,9 +274,10 @@ export default function HomePage() {
             })}
           </div>
 
-          <p className="mt-5 font-site-utility text-[10px] uppercase tracking-[0.14em] text-[#1B1F24]/45">
-            Prices plus 8.25% Texas sales tax. We don&apos;t hide it — it&apos;s
-            on every invoice.
+          <p className="mt-5 max-w-2xl font-site-utility text-[10px] uppercase tracking-[0.14em] text-[#1B1F24]/45">
+            Prices shown are starting estimates — your final quote depends on
+            square footage and how many rooms you have. Plus 8.25% Texas sales
+            tax, itemized on every invoice.
           </p>
         </div>
       </section>
@@ -323,6 +320,56 @@ export default function HomePage() {
               </div>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* ── FOR BUSINESSES ───────────────────────────────────────────── */}
+      <section className="border-b-2 border-[#1B1F24] py-20 lg:py-28">
+        <div className="mx-auto max-w-7xl px-5 lg:px-8 grid grid-cols-1 lg:grid-cols-[1.05fr_0.95fr] gap-12 lg:gap-16 items-center">
+          <div>
+            <p className="font-site-utility text-[11px] uppercase tracking-[0.22em] text-[#E2501C]">
+              For businesses
+            </p>
+            <h2 className="mt-3 font-extrabold uppercase tracking-[-0.02em] leading-[0.95] text-[clamp(2.2rem,5vw,3.8rem)]">
+              Not just homes.
+            </h2>
+            <p className="mt-6 max-w-md text-[15px] leading-relaxed text-[#1B1F24]/70">
+              The man cleans small offices, salons, studios, retail spaces, and
+              short-term rentals across Northwest Houston too. After-hours or
+              before you open, on a recurring schedule that keeps your space
+              sharp without getting in the way of business.
+            </p>
+            <div className="mt-8">
+              <Link
+                href="/contact"
+                className="group inline-flex items-center gap-2.5 bg-[#1B1F24] hover:bg-[#E2501C] text-[#F6F1E7] font-site-utility text-xs uppercase tracking-[0.18em] px-7 py-4 transition-colors"
+              >
+                Get a business quote
+                <ArrowRight className="size-4 transition-transform group-hover:translate-x-1" />
+              </Link>
+            </div>
+          </div>
+          <ul className="grid grid-cols-2 gap-px bg-[#1B1F24] border-2 border-[#1B1F24]">
+            {[
+              "Offices & suites",
+              "Salons & studios",
+              "Retail & storefronts",
+              "Short-term rentals",
+              "Lobbies & waiting rooms",
+              "Move-out turnovers",
+            ].map((item) => (
+              <li
+                key={item}
+                className="bg-[#F6F1E7] px-5 py-6 font-site-utility text-[12px] uppercase tracking-[0.1em] font-semibold flex items-start gap-2.5"
+              >
+                <Check
+                  className="size-4 text-[#E2501C] mt-0.5 shrink-0"
+                  strokeWidth={3}
+                />
+                {item}
+              </li>
+            ))}
+          </ul>
         </div>
       </section>
 

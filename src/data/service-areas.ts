@@ -48,7 +48,7 @@ export const SERVICE_AREAS: ServiceArea[] = [
       ["Character", "Master-planned"],
     ],
     intro:
-      "Man With a Mop provides house cleaning in Cypress, TX — standard cleans, deep cleans, move-in/out turnovers, and carpet cleaning across Bridgeland, Towne Lake, Fairfield, and the rest of Cy-Fair. One vetted, insured man, booked by text or online, usually scheduled within 48 hours.",
+      "Man With a Mop provides house cleaning in Cypress, TX — standard cleans, deep cleans, and move-in/out turnovers across Bridgeland, Towne Lake, Fairfield, and the rest of Cy-Fair. One vetted, insured man, booked by text or online, usually scheduled within 48 hours.",
     localRead: [
       "Cypress is the busiest stop on our route, and for good reason: ZIP 77433 was the single most-moved-into ZIP code in America in 2025. All those moving trucks mean two things we see every week — move-in cleans on brand-new builds in Bridgeland, Marvida, and Dunham Pointe, and that fine layer of construction dust that new-home neighborhoods never quite escape while the builders are still pouring slabs down the street.",
       "From the Boardwalk at Towne Lake to the older trees in Coles Crossing, Cypress homes run from brand-new to broken-in. The man cleans both: builder-dust deep cleans for new keys, and recurring standard cleans for families who'd rather spend Saturday on the trails in Bridgeland than scrubbing baseboards.",
@@ -71,7 +71,7 @@ export const SERVICE_AREAS: ServiceArea[] = [
     faqs: [
       {
         q: "How much does house cleaning cost in Cypress, TX?",
-        a: "Standard cleans start at $120, deep cleans at $185, move-in/out cleans at $210, and carpet cleaning at $85 — plus 8.25% Texas sales tax, which we show on every invoice. Final quotes depend on square footage and condition.",
+        a: "Standard cleans start at $120, deep cleans at $185, and move-in/out cleans at $210 — plus 8.25% Texas sales tax, which we show on every invoice. These are starting estimates; your final quote depends on square footage and how many rooms you have.",
       },
       {
         q: "Do you clean new-construction homes in Bridgeland and Marvida?",
@@ -109,7 +109,7 @@ export const SERVICE_AREAS: ServiceArea[] = [
       ["Character", "Master-planned"],
     ],
     intro:
-      "Man With a Mop provides house cleaning in Katy, TX — recurring standard cleans, deep cleans, move-in/out turnovers, and carpet cleaning across Cinco Ranch, Elyson, Cane Island, and greater Katy. One vetted, insured man, booked online or by text, with pricing posted up front.",
+      "Man With a Mop provides house cleaning in Katy, TX — recurring standard cleans, deep cleans, and move-in/out turnovers across Cinco Ranch, Elyson, Cane Island, and greater Katy. One vetted, insured man, booked online or by text, with pricing posted up front.",
     localRead: [
       "Katy is really two markets wearing one rice-farmer's hat. South of I-10 you've got the established master-planned giants — Cinco Ranch, Grand Lakes, Firethorne — twenty-plus years of family homes where recurring cleans and the occasional deep reset keep things sane. North of I-10, ZIP 77493 has been one of the hottest new-home ZIPs in America, and Elyson, Cane Island, and Sunterra keep handing out new keys that deserve a proper move-in clean.",
       "Move-out season is serious business here: Katy's HOA communities and competitive resale market mean a turnover clean has to actually pass inspection, not just smell like lemon. Our move-in/out clean was built for landlord checklists — inside cabinets, inside appliances, every closet. It's as if a man cleaned it. A thorough one.",
@@ -132,7 +132,7 @@ export const SERVICE_AREAS: ServiceArea[] = [
     faqs: [
       {
         q: "How much does house cleaning cost in Katy, TX?",
-        a: "Standard cleans start at $120, deep cleans at $185, move-in/out cleans at $210, and carpet cleaning at $85, plus 8.25% TX sales tax — always itemized on the invoice. Larger Cinco Ranch floor plans may quote higher; we confirm before booking.",
+        a: "Standard cleans start at $120, deep cleans at $185, and move-in/out cleans at $210, plus 8.25% TX sales tax — always itemized on the invoice. These are starting estimates; larger Cinco Ranch floor plans quote higher by square footage and number of rooms, and we confirm before booking.",
       },
       {
         q: "Do you handle move-out cleans that satisfy Katy HOA and landlord standards?",
@@ -170,7 +170,7 @@ export const SERVICE_AREAS: ServiceArea[] = [
       ["Character", "Country + new builds"],
     ],
     intro:
-      "Man With a Mop provides house cleaning in Hockley, TX — standard cleans, deep cleans, move-in/out cleans, and carpet cleaning for the new communities like Dellrose and Jubilee as well as the acreage and farm properties that make Hockley, Hockley. Unincorporated? Outside city limits? Doesn't matter — if you're on 77447, you're on the route.",
+      "Man With a Mop provides house cleaning in Hockley, TX — standard cleans, deep cleans, and move-in/out cleans for the new communities like Dellrose and Jubilee as well as the acreage and farm properties that make Hockley, Hockley. Unincorporated? Outside city limits? Doesn't matter — if you're on 77447, you're on the route.",
     localRead: [
       "Hockley is where the route turns country — hay fields and horse property on one side of US-290, brand-new rooftops in Dellrose, Cypress Green, and Jubilee on the other. Home sales here jumped over 40% in 2024, which means a lot of first-time-in-this-house cleans: builder-dust deep cleans, move-in resets, and that first real scrub a new home needs after the boxes are gone.",
       "The acreage side of Hockley has its own cleaning rhythm. Country properties track in more of everything — dust off the gravel drive, mud from the barn, whatever the dogs found. We don't flinch at a mudroom that's earned its name, and we schedule around livestock feedings and farm mornings without drama.",
@@ -195,7 +195,7 @@ export const SERVICE_AREAS: ServiceArea[] = [
       },
       {
         q: "How much does house cleaning cost in Hockley, TX?",
-        a: "Same honest rate card as everywhere on our route: standard cleans from $120, deep cleans from $185, move-in/out from $210, carpet cleaning from $85 — plus 8.25% TX sales tax, itemized. Large acreage homes get a confirmed quote before we book.",
+        a: "Same honest rate card as everywhere on our route: standard cleans from $120, deep cleans from $185, and move-in/out from $210 — plus 8.25% TX sales tax, itemized. These are starting estimates; large acreage homes get a confirmed quote by square footage and number of rooms before we book.",
       },
       {
         q: "Is Hockley really on your regular route?",
@@ -229,7 +229,7 @@ export const SERVICE_AREAS: ServiceArea[] = [
       ["Character", "Acreage + pines"],
     ],
     intro:
-      "Man With a Mop provides house cleaning in Magnolia, TX — deep cleans, standard cleans, move-in/out turnovers, and carpet cleaning for acreage homes in the pines, custom builds in High Meadow Ranch, and the new communities filling in along FM 1488 and the Aggie Expressway. One insured, background-checked man who doesn't mind a long gravel driveway.",
+      "Man With a Mop provides house cleaning in Magnolia, TX — deep cleans, standard cleans, and move-in/out turnovers for acreage homes in the pines, custom builds in High Meadow Ranch, and the new communities filling in along FM 1488 and the Aggie Expressway. One insured, background-checked man who doesn't mind a long gravel driveway.",
     localRead: [
       "Magnolia living means trees, acreage, and a little distance between you and the neighbors — and a different kind of cleaning job. Wooded lots shed pine pollen on everything every spring, country roads send dust up the porch steps, and big custom homes in High Meadow Ranch or Mostyn Manor have more square footage than the average maid service wants to deal with. We quote it straight and clean it properly.",
       "Meanwhile, Magnolia is quietly one of the fastest-growing small cities in Texas, and the new rooftops in Audubon and along the 1488 corridor bring the other half of our work here: move-in cleans on new construction and recurring service for families who moved out past The Woodlands for the trees — not for more chores. Take the Stroll downtown; leave the baseboards to the man.",
@@ -254,7 +254,7 @@ export const SERVICE_AREAS: ServiceArea[] = [
       },
       {
         q: "How much does house cleaning cost in Magnolia, TX?",
-        a: "Standard cleans from $120, deep cleans from $185, move-in/out cleans from $210, carpet cleaning from $85 — plus 8.25% TX sales tax, always itemized. Large custom homes quote by size and condition.",
+        a: "Standard cleans from $120, deep cleans from $185, and move-in/out cleans from $210 — plus 8.25% TX sales tax, always itemized. These are starting estimates; large custom homes quote by square footage and number of rooms.",
       },
       {
         q: "How do you handle spring pine pollen season?",
@@ -288,10 +288,10 @@ export const SERVICE_AREAS: ServiceArea[] = [
       ["Character", "Old town + new growth"],
     ],
     intro:
-      "Man With a Mop provides house cleaning in Tomball, TX — recurring standard cleans, deep cleans, move-in/out turnovers, and carpet cleaning from the established wooded streets of Lakewood Forest to the new builds along the 249 Tollway. One vetted, insured man with a mop and an actual respect for a town that throws two German festivals a year.",
+      "Man With a Mop provides house cleaning in Tomball, TX — recurring standard cleans, deep cleans, and move-in/out turnovers from the established wooded streets of Lakewood Forest to the new builds along the 249 Tollway. One vetted, insured man with a mop and an actual respect for a town that throws two German festivals a year.",
     localRead: [
       "Tomball is the old soul of the route — a real downtown with a railroad depot, antique shops, and a German Christmas Market — surrounded by some of the fastest suburban growth in Harris County since the Tomball Tollway opened. That mix shows up in the work: established homes in Lakewood Forest with decades of character (and decades of dust settling into it), next to Northpointe builds that need their first proper deep clean.",
-      "Older wooded neighborhoods come with their own list — mature-tree pollen on the porch, well-lived carpets, kitchens that have hosted thirty Thanksgivings. Our carpet extraction earns its keep here, and a seasonal deep clean keeps a broken-in house feeling looked-after instead of just old.",
+      "Older wooded neighborhoods come with their own list — mature-tree pollen on the porch, dusty ceiling fans, kitchens that have hosted thirty Thanksgivings. A seasonal deep clean earns its keep here, keeping a broken-in house feeling looked-after instead of just old.",
     ],
     neighborhoods: [
       "Lakewood Forest",
@@ -308,15 +308,11 @@ export const SERVICE_AREAS: ServiceArea[] = [
     faqs: [
       {
         q: "How much does house cleaning cost in Tomball, TX?",
-        a: "Standard cleans from $120, deep cleans from $185, move-in/out cleans from $210, and carpet cleaning from $85 — plus 8.25% TX sales tax on every itemized invoice.",
+        a: "Standard cleans from $120, deep cleans from $185, and move-in/out cleans from $210 — plus 8.25% TX sales tax on every itemized invoice. These are starting estimates; your final quote depends on square footage and number of rooms.",
       },
       {
         q: "Do you clean older homes in established neighborhoods like Lakewood Forest?",
-        a: "Happily. Established homes are honest work — more built-up dust, more character, more carpet that deserves real hot-water extraction instead of a rental machine. We treat a 1985 kitchen with the same respect as a 2025 one.",
-      },
-      {
-        q: "Is carpet cleaning available as a standalone service in Tomball?",
-        a: "Yes — carpet-only service starts at $85: hot-water extraction, pre-treatment on heavy spots, pet-odor neutralizer if you need it, and typical dry time of 4–6 hours.",
+        a: "Happily. Established homes are honest work — more built-up dust, more character, and decades of grime that a deep clean is built to cut through. We treat a 1985 kitchen with the same respect as a 2025 one.",
       },
       {
         q: "Which Tomball areas do you cover?",
@@ -326,12 +322,12 @@ export const SERVICE_AREAS: ServiceArea[] = [
     testimonial: {
       name: "Gene & Patty H.",
       neighborhood: "Lakewood Forest",
-      service: "Deep Clean + Carpets",
-      body: "Thirty-one years in this house and I can say nobody — including us — ever got it this clean. The carpets in the den look like they did when Reagan was president. Worth every penny.",
+      service: "Deep Clean",
+      body: "Thirty-one years in this house and I can say nobody — including us — ever got it this clean. Baseboards I'd forgotten the color of, ceiling fans, the works. Worth every penny.",
     },
     metaTitle: "House Cleaning in Tomball, TX",
     metaDescription:
-      "House cleaning in Tomball, TX — Lakewood Forest, Northpointe & Old Town. Deep cleans and carpet extraction for established and new homes. Insured & vetted.",
+      "House cleaning in Tomball, TX — Lakewood Forest, Northpointe & Old Town. Deep cleans and move-in/out turnovers for established and new homes. Insured & vetted.",
   },
   {
     slug: "conroe-tx",
@@ -346,7 +342,7 @@ export const SERVICE_AREAS: ServiceArea[] = [
       ["Character", "Lake life + boomtown"],
     ],
     intro:
-      "Man With a Mop provides house cleaning in Conroe, TX — standard cleans, deep cleans, move-in/out turnovers, and carpet cleaning from downtown to the shores of Lake Conroe, including Grand Central Park, April Sound, and Graystone Hills. One insured, background-checked man serving one of the fastest-growing cities in America.",
+      "Man With a Mop provides house cleaning in Conroe, TX — standard cleans, deep cleans, and move-in/out turnovers from downtown to the shores of Lake Conroe, including Grand Central Park, April Sound, and Graystone Hills. One insured, background-checked man serving one of the fastest-growing cities in America.",
     localRead: [
       "Conroe has been one of the fastest-growing cities in the country for a decade — the county seat more than doubled since 2010 — and all that growth means keys changing hands: move-in cleans in Grand Central Park and Harper's Preserve, move-out turnovers near downtown, and first deep cleans on houses that just got their first family.",
       "Then there's the lake. Lake Conroe homes work harder than regular houses — weekend guests, wet towels, boat-day sand, and short-term rentals that need a fast, thorough turnover between bookings. We clean lakefront properties in April Sound and around the shoreline with the speed a Friday check-in demands and the thoroughness a five-star review requires.",
@@ -371,7 +367,7 @@ export const SERVICE_AREAS: ServiceArea[] = [
       },
       {
         q: "How much does house cleaning cost in Conroe, TX?",
-        a: "Standard cleans from $120, deep cleans from $185, move-in/out cleans from $210, carpet cleaning from $85 — plus 8.25% TX sales tax, itemized on every invoice. Lakefront and larger properties get a confirmed quote first.",
+        a: "Standard cleans from $120, deep cleans from $185, and move-in/out cleans from $210 — plus 8.25% TX sales tax, itemized on every invoice. These are starting estimates; lakefront and larger properties get a confirmed quote by square footage and number of rooms first.",
       },
       {
         q: "Conroe is the far end of your route — do you really cover it?",

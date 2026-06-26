@@ -74,10 +74,10 @@ export const SERVICES: ServiceDetail[] = [
     tagline: "The weekly reset",
     price: 120,
     priceLabel: "$120",
-    priceNote: "~2 hrs · + 8.25% TX tax",
+    priceNote: "~2–4 hrs · + 8.25% TX tax",
     bestFor: "Maintained homes",
     intro:
-      "A Standard Clean from Man With a Mop is routine upkeep for an already-maintained home — kitchen and bathrooms scrubbed, every floor vacuumed and mopped, surfaces dusted, trash out. It runs about two hours and starts at $120 plus 8.25% Texas sales tax. It's the clean most Northwest Houston families put on a recurring schedule.",
+      "A Standard Clean from Man With a Mop is routine upkeep for an already-maintained home — kitchen and bathrooms scrubbed, every floor vacuumed and mopped, surfaces dusted, trash out. It runs about two to four hours and starts at $120 plus 8.25% Texas sales tax. It's the clean most Northwest Houston families put on a recurring schedule.",
     includes: [
       "Kitchen surfaces + appliance exteriors wiped down",
       "All bathrooms — toilets, sinks, tubs, mirrors scrubbed",
@@ -100,7 +100,7 @@ export const SERVICES: ServiceDetail[] = [
       },
       {
         q: "How long does a Standard Clean take?",
-        a: "About two hours for a typical Northwest Houston home. Larger floor plans get a confirmed quote before we book, so the price on the invoice is the price we agreed on.",
+        a: "About two to four hours for a typical Northwest Houston home, depending on size and condition. Larger floor plans get a confirmed quote before we book, so the price on the invoice is the price we agreed on.",
       },
       {
         q: "How often should I schedule a Standard Clean?",
@@ -126,10 +126,10 @@ export const SERVICES: ServiceDetail[] = [
     tagline: "Baseboards to ceiling fans",
     price: 185,
     priceLabel: "$185",
-    priceNote: "~3 hrs · + 8.25% TX tax",
+    priceNote: "~4–6 hrs · + 8.25% TX tax",
     bestFor: "First cleans + resets",
     intro:
-      "A Deep Clean is the full reset — everything in a Standard Clean plus the parts of the house that get skipped between cleanings: inside the oven, fridge, and microwave, baseboards, window sills and tracks, cabinet fronts, and ceiling fans. It runs about three hours and starts at $185 plus 8.25% Texas sales tax. It's where new clients start before going on a recurring schedule.",
+      "A Deep Clean is the full reset — everything in a Standard Clean plus the parts of the house that get skipped between cleanings: inside the oven, fridge, and microwave, baseboards, window sills and tracks, cabinet fronts, and ceiling fans. It runs about four to six hours and starts at $185 plus 8.25% Texas sales tax. It's where new clients start before going on a recurring schedule.",
     includes: [
       "Everything in a Standard Clean",
       "Inside the oven, fridge, and microwave",
@@ -150,7 +150,7 @@ export const SERVICES: ServiceDetail[] = [
       },
       {
         q: "How much longer does a Deep Clean take?",
-        a: "Plan on about three hours versus two for a Standard Clean — the extra time goes into the oven, fridge, baseboards, tracks, and fans. Larger homes are quoted by size and condition up front.",
+        a: "Plan on about four to six hours, versus two to four for a Standard Clean — the extra time goes into the oven, fridge, baseboards, tracks, and fans. Larger homes are quoted by size and condition up front.",
       },
       {
         q: "Will you get builder dust and pollen off the tracks and sills?",
@@ -273,54 +273,9 @@ export const SERVICES: ServiceDetail[] = [
 
   // ── ADD-ONS ────────────────────────────────────────────────────────────
   {
-    slug: "carpet-cleaning",
-    category: "addon",
-    serviceKey: "carpet_only",
-    routeNo: "05",
-    name: "Carpet Cleaning",
-    shortName: "Carpet",
-    badge: "Add-On · Hot-water extraction",
-    tagline: "Extraction, not a rental machine",
-    price: 85,
-    priceLabel: "From $85",
-    priceNote: "~1.5 hrs · + 8.25% TX tax",
-    bestFor: "Add to any clean",
-    intro:
-      "Carpet Cleaning is hot-water extraction — the deep method that pulls dirt and odor out of the fibers instead of pushing it around. Heavily soiled spots get pre-treated, pet odor can be neutralized on request, and light furniture is moved. It starts at $85 plus 8.25% Texas sales tax and is most popular added onto a Standard or Deep Clean.",
-    includes: [
-      "Hot-water extraction (steam clean)",
-      "Pre-treat heavily soiled spots",
-      "Pet odor neutralizer available on request",
-      "Light furniture moving",
-      "Typical dry time 4–6 hours",
-    ],
-    pairsWith: ["Deep Clean", "Move-In / Move-Out Clean"],
-    faqs: [
-      {
-        q: "How is hot-water extraction different from renting a machine?",
-        a: "Extraction uses heat and stronger suction to pull soil and odor out of the carpet, then lifts most of the water back out — so it cleans deeper and dries faster than a rental unit. Typical dry time is 4–6 hours.",
-      },
-      {
-        q: "Can you handle pet odor?",
-        a: "Yes — a pet-odor neutralizer is available on request and works into the pre-treatment step. Let us know the spots ahead of time so the man comes prepared.",
-      },
-      {
-        q: "Can I add carpet cleaning to a house clean?",
-        a: "That's the most common way clients book it — added onto a Standard or Deep Clean so the man handles the whole house in one visit. It's also available on its own.",
-      },
-      {
-        q: "How long until the carpet is dry?",
-        a: "Plan on 4–6 hours, a little longer in humid stretches. We'll let you know which rooms to stay off and for how long.",
-      },
-    ],
-    metaTitle: "Carpet Cleaning — Hot-Water Extraction | Man With a Mop",
-    metaDescription:
-      "Carpet cleaning from $85 across Northwest Houston — hot-water extraction, spot pre-treatment, pet-odor neutralizer. Add to any clean. Insured & vetted.",
-  },
-  {
     slug: "window-cleaning",
     category: "addon",
-    routeNo: "06",
+    routeNo: "05",
     name: "Window Cleaning",
     shortName: "Window",
     badge: "Add-On · Interior + reachable exterior",

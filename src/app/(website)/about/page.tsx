@@ -6,7 +6,7 @@ const STANDARDS = [
   {
     n: "01",
     title: "Vetted before the doorbell",
-    body: "Background check and reference checks before the man ever steps into a home. Bonded and insured on every job.",
+    body: "Background check and reference checks before the man ever steps into a home. Insured on every job.",
   },
   {
     n: "02",

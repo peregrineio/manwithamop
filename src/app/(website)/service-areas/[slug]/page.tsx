@@ -17,7 +17,6 @@ const PAGE_SERVICES = [
   { key: "standard_clean", slug: "standard-clean", note: "The recurring reset" },
   { key: "deep_clean", slug: "deep-clean", note: "Baseboards to ceiling fans" },
   { key: "move_in_out", slug: "move-in-out-clean", note: "Deposit-back standard" },
-  { key: "carpet_only", slug: "carpet-cleaning", note: "Hot-water extraction" },
 ] as const;
 
 export function generateStaticParams() {
@@ -249,7 +248,7 @@ export default async function ServiceAreaPage({
                     {svc.label}
                   </h3>
                   <p className="hidden sm:block font-site-utility text-[11px] uppercase tracking-[0.12em] text-[#1B1F24]/55">
-                    {s.note} · ~{svc.duration} hrs
+                    {s.note} · {svc.durationLabel}
                   </p>
                   <p className="font-extrabold text-lg sm:text-xl text-right">
                     ${svc.price}

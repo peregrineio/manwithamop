@@ -206,14 +206,19 @@ export function BookingForm() {
 
       <div>
         <label htmlFor="address" className={FIELD_LABEL}>
-          Address (optional)
+          Service address *
         </label>
         <input
           id="address"
           name="address"
+          required
           disabled={submitting}
+          placeholder="Street, city, ZIP"
           className={FIELD_INPUT}
         />
+        <p className="mt-1.5 font-site-utility text-[9px] uppercase tracking-[0.12em] text-[#1B1F24]/45">
+          Required — it&apos;s how we size the job and quote accurately.
+        </p>
       </div>
 
       <div>

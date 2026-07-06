@@ -14,6 +14,7 @@ const LINKS = [
   { href: "/services", label: "Services" },
   { href: "/about", label: "About" },
   { href: "/reviews", label: "Reviews" },
+  { href: "/blog", label: "Field Notes" },
   { href: "/contact", label: "Contact" },
 ];
 

@@ -20,7 +20,8 @@ export const metadata: Metadata = {
   },
   description:
     "House cleaning across Cypress, Katy, Hockley, Magnolia, Tomball, and Conroe, TX. One insured, background-checked man. Honest pricing. Booking under two minutes.",
-  alternates: { canonical: "/" },
+  // Never set a layout-level canonical — it cascades to every child page and
+  // de-indexes them. Each page self-canonicalizes via its own metadata export.
   openGraph: {
     type: "website",
     siteName: COMPANY_NAME,

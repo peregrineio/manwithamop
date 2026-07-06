@@ -1,6 +1,14 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import { ArrowRight } from "lucide-react";
+
+export const metadata: Metadata = {
+  title: "About the Man",
+  description:
+    "Who's behind Man With a Mop — one insured, background-checked founder cleaning homes and small businesses across Northwest Houston. How the man operates.",
+  alternates: { canonical: "/about" },
+};
 
 const STANDARDS = [
   {

@@ -1,0 +1,55 @@
+{
+  "_comment": "GEO site config for /geo-blog. The project repo root = the directory that contains this geo-content/ folder. All paths below are relative to that repo root.",
+  "project": "man-with-a-mop",
+  "displayName": "Man With a Mop",
+  "domain": "https://manwithamop.co",
+  "entity": "Peregrine IO",
+  "isReference": false,
+
+  "contentSystem": "velite-mdx",
+  "blogDir": "content/blog",
+  "frontmatter": {
+    "fields": ["title", "description", "date", "category", "author", "tags", "featured", "image", "draft", "faqs", "segment", "city", "service"],
+    "categoryEnum": ["pricing", "service-guide", "comparison", "faq", "how-to", "local-guide", "commercial"],
+    "authors": ["ryan"],
+    "defaultAuthor": "ryan",
+    "dateFormat": "YYYY-MM-DD",
+    "noImageUnlessReal": true
+  },
+
+  "dataSources": {
+    "locations": "src/data/service-areas.ts",
+    "locationGetter": "getServiceArea(\"<slug>\")",
+    "services": "src/data/services.ts",
+    "serviceGetter": "getService(\"<slug>\")"
+  },
+
+  "internalLinks": {
+    "service": "/services/{slug}",
+    "location": "/service-areas/{slug}",
+    "blog": "/blog/{slug}"
+  },
+
+  "brand": {
+    "positioning": "House and small-business cleaning across the Northwest Houston corridor (Cypress, Katy, Hockley, Magnolia, Tomball, Conroe). One insured, background-checked man does every job himself.",
+    "tone": "plain-spoken, no hype, one-man-with-a-mop voice",
+    "pricing": "Posted rates + 8.25% TX sales tax + 'final quote depends on square footage & number of rooms'. NEVER invent exact prices.",
+    "doNotClaim": [
+      "mold / mold removal / remediation",
+      "sanitize / disinfect / antimicrobial / kills germs",
+      "guaranteed outcomes (spotless guarantee / 100% clean)",
+      "invented prices or stats",
+      "fake testimonials / reviews / client names",
+      "the word 'bonded' (insured only)",
+      "carpet cleaning (service removed)"
+    ]
+  },
+
+  "geoGoal": "Earn citations in AI answer engines (ChatGPT/SearchGPT, Perplexity, Google AI Overviews, Gemini) AND rank in NW Houston local search.",
+
+  "publish": {
+    "gitBranch": "main",
+    "reviewRequired": true,
+    "vercelProject": "manwithamop (prj_G01t1An75GybYOj0PQcY0O6ny3zl, peregrine-ios team)"
+  }
+}

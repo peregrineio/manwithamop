@@ -1,5 +1,13 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowRight, Star } from "lucide-react";
+
+export const metadata: Metadata = {
+  title: "Reviews — Field Reports",
+  description:
+    "What homeowners across the NW Houston corridor say about Man With a Mop. Field reports from Cypress, Katy, Tomball, Magnolia, Hockley, and Conroe.",
+  alternates: { canonical: "/reviews" },
+};
 
 const REVIEWS = [
   {

@@ -1,0 +1,30 @@
+{
+  "_comment": "GEO content matrix backlog for manwithamop.co. Read + updated by the /geo-blog skill. After a post goes live, append its slug to publishedSlugs. Pilot city is built first; velocity is capped tighter than Aeopic to protect the smaller domain.",
+  "pilotCity": "cypress-tx",
+  "publishedSlugs": [],
+  "velocity": { "perWeekMax": 10, "batchDefault": 5 },
+  "cities": [
+    { "slug": "cypress-tx", "name": "Cypress", "hook": "ZIP 77433 was the most-moved-into ZIP in America in 2025 — move-in cleans + builder dust in Bridgeland, Marvida, Dunham Pointe; Towne Lake Boardwalk to broken-in Coles Crossing" },
+    { "slug": "katy-tx", "name": "Katy", "hook": "Two markets in one: established Cinco Ranch/Grand Lakes south of I-10 vs hot new-build ZIP 77493 (Elyson, Cane Island, Sunterra); HOA/resale market makes move-out cleans inspection-grade work" },
+    { "slug": "hockley-tx", "name": "Hockley", "hook": "Country + new builds on 77447 — home sales jumped 40%+ in 2024 (Dellrose, Cypress Green, Jubilee) next to acreage/farm properties with gravel-drive dust and earned mudrooms" },
+    { "slug": "magnolia-tx", "name": "Magnolia", "hook": "Acreage in the pines — spring pine pollen, big custom homes (High Meadow Ranch, Mostyn Manor), plus fast growth along FM 1488/Aggie Expressway (Audubon)" },
+    { "slug": "tomball-tx", "name": "Tomball", "hook": "Old town + new growth: real downtown w/ railroad depot & German festivals, Lakewood Forest wooded homes with decades of character vs new Northpointe builds off the 249 Tollway" },
+    { "slug": "conroe-tx", "name": "Conroe", "hook": "Boomtown + lake life: county seat doubled since 2010 (Grand Central Park, Harper's Preserve) and Lake Conroe rentals need fast five-star turnovers (April Sound)" }
+  ],
+  "services": [
+    { "slug": "standard-clean", "name": "Standard Clean", "path": "/services/standard-clean" },
+    { "slug": "deep-clean", "name": "Deep Clean", "path": "/services/deep-clean" },
+    { "slug": "move-in-out-clean", "name": "Move-In / Move-Out Clean", "path": "/services/move-in-out-clean" },
+    { "slug": "recurring-cleaning", "name": "Recurring Cleaning", "path": "/services/recurring-cleaning" },
+    { "slug": "window-cleaning", "name": "Window Cleaning", "path": "/services/window-cleaning" }
+  ],
+  "segments": ["residential", "commercial"],
+  "formats": [
+    { "key": "cost-guide", "titlePattern": "How Much Does House Cleaning Cost in [City]? (2026)", "category": "pricing", "priority": 1 },
+    { "key": "service-city", "titlePattern": "[Service] in [City]: What to Expect & What's Included", "category": "service-guide", "priority": 2 },
+    { "key": "comparison", "titlePattern": "Deep Clean vs. Standard Clean: Which Does Your [City] Home Need?", "category": "comparison", "priority": 3 },
+    { "key": "faq-hub", "titlePattern": "House Cleaning in [City]: Frequently Asked Questions", "category": "faq", "priority": 4 },
+    { "key": "checklist", "titlePattern": "Move-Out Cleaning Checklist for [City] Renters (Deposit-Back)", "category": "how-to", "priority": 5 },
+    { "key": "commercial", "titlePattern": "[City] Office & Small-Business Cleaning: What to Expect", "category": "commercial", "priority": 6 }
+  ]
+}

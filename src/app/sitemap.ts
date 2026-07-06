@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { SERVICE_AREAS } from "@/data/service-areas";
 import { SERVICES } from "@/data/services";
+import { getAllPosts } from "@/lib/blog";
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://manwithamop.com";
 
@@ -21,6 +22,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: now,
       changeFrequency: "monthly" as const,
       priority: 0.8,
+    })),
+    { url: `${SITE_URL}/blog`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
+    ...getAllPosts().map((p) => ({
+      url: `${SITE_URL}/blog/${p.slug}`,
+      lastModified: new Date(p.date),
+      changeFrequency: "monthly" as const,
+      priority: 0.7,
     })),
     { url: `${SITE_URL}/about`, lastModified: now, changeFrequency: "monthly", priority: 0.5 },
     { url: `${SITE_URL}/reviews`, lastModified: now, changeFrequency: "weekly", priority: 0.7 },

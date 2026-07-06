@@ -1,4 +1,12 @@
+import type { Metadata } from "next";
 import { COMPANY_NAME } from "@/lib/constants";
+
+export const metadata: Metadata = {
+  title: "Terms of Service",
+  description:
+    "The terms that govern Man With a Mop cleaning services across Northwest Houston — scheduling, payment, and Texas sales tax, in plain language.",
+  alternates: { canonical: "/terms" },
+};
 
 const HEADING =
   "flex items-baseline gap-4 font-extrabold uppercase tracking-tight text-lg pt-8 border-t-2 border-[#1B1F24] mt-8 first:mt-0 first:pt-0 first:border-t-0";

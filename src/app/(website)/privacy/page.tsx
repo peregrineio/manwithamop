@@ -1,4 +1,12 @@
+import type { Metadata } from "next";
 import { COMPANY_NAME, COMPANY_EMAIL } from "@/lib/constants";
+
+export const metadata: Metadata = {
+  title: "Privacy Policy",
+  description:
+    "How Man With a Mop collects, uses, and protects your information — plain-spoken and in full.",
+  alternates: { canonical: "/privacy" },
+};
 
 const HEADING =
   "flex items-baseline gap-4 font-extrabold uppercase tracking-tight text-lg pt-8 border-t-2 border-[#1B1F24] mt-8 first:mt-0 first:pt-0 first:border-t-0";

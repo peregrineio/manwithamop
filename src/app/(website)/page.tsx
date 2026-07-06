@@ -1,7 +1,15 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowRight, Star, Check } from "lucide-react";
 import { SERVICE_TYPES, COMPANY_PHONE } from "@/lib/constants";
 import { SERVICE_AREAS } from "@/data/service-areas";
+
+export const metadata: Metadata = {
+  title: "House Cleaning in Northwest Houston, TX",
+  description:
+    "House cleaning across Cypress, Katy, Hockley, Magnolia, Tomball, and Conroe, TX. One insured, background-checked man. Honest pricing. Booking under two minutes.",
+  alternates: { canonical: "/" },
+};
 
 const PHONE_HREF = `tel:${COMPANY_PHONE.replace(/\D/g, "")}`;
 

@@ -1,5 +1,13 @@
+import type { Metadata } from "next";
 import { COMPANY_PHONE, COMPANY_EMAIL } from "@/lib/constants";
 import { BookingForm } from "@/components/website/booking-form";
+
+export const metadata: Metadata = {
+  title: "Request a Work Order — Contact",
+  description:
+    "Request a cleaning work order in Northwest Houston. Phone, email, and a two-minute booking form. Response within one business day.",
+  alternates: { canonical: "/contact" },
+};
 
 const DETAILS: [string, string, string | null][] = [
   ["Phone", COMPANY_PHONE, `tel:${COMPANY_PHONE.replace(/\D/g, "")}`],

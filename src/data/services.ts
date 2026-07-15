@@ -111,7 +111,7 @@ export const SERVICES: ServiceDetail[] = [
         a: "You don't need to be home — many clients leave a door code. The man brings his own HEPA vacuum, microfiber, and products. Prefer specific products for stone or hardwood? Leave them out and tell us.",
       },
     ],
-    metaTitle: "Standard House Cleaning — Northwest Houston | Man With a Mop",
+    metaTitle: "Standard House Cleaning — Northwest Houston",
     metaDescription:
       "Standard house cleaning from $120 across Cypress, Katy, Tomball & Northwest Houston. Kitchen, baths, floors, dusting. Insured, vetted, same man every visit.",
   },
@@ -157,7 +157,7 @@ export const SERVICES: ServiceDetail[] = [
         a: "Yes — window tracks, sills, baseboards, vents, and fan blades are exactly what the Deep Clean is built for. New builds in Bridgeland, Elyson, and Dellrose and acreage homes in Magnolia get this one a lot.",
       },
     ],
-    metaTitle: "Deep House Cleaning — Northwest Houston | Man With a Mop",
+    metaTitle: "Deep House Cleaning — Northwest Houston",
     metaDescription:
       "Deep cleaning from $185 across Cypress, Katy, Magnolia & Northwest Houston. Inside oven & fridge, baseboards, window tracks, ceiling fans. Insured & vetted.",
   },
@@ -203,7 +203,7 @@ export const SERVICES: ServiceDetail[] = [
         a: "As early as you can — give us a day or two of lead time so we can schedule the clean before your inspection, not the morning of. Most homes are scheduled within 48 hours.",
       },
     ],
-    metaTitle: "Move-In / Move-Out Cleaning — Northwest Houston | Man With a Mop",
+    metaTitle: "Move-In / Move-Out Cleaning — Northwest Houston",
     metaDescription:
       "Move-out cleaning from $210 across Cypress, Katy & Northwest Houston. Inside cabinets & appliances, closets, walls — built to pass landlord checklists.",
   },
@@ -266,7 +266,7 @@ export const SERVICES: ServiceDetail[] = [
         a: "Each visit is invoiced at your recurring rate with 8.25% Texas sales tax itemized — same honest pricing, just at the standing discount. Payment is after service.",
       },
     ],
-    metaTitle: "Recurring House Cleaning — Weekly, Bi-Weekly & Monthly | Man With a Mop",
+    metaTitle: "Recurring House Cleaning — Weekly, Bi-Weekly & Monthly",
     metaDescription:
       "Recurring house cleaning across Northwest Houston — weekly, bi-weekly, or monthly. Same man every visit, standing discount, no contract. Free quotes.",
   },
@@ -313,7 +313,7 @@ export const SERVICES: ServiceDetail[] = [
         a: "It starts at $40 added onto a clean and scales with the number of windows. We confirm the add-on price when we quote your clean, with 8.25% Texas sales tax itemized.",
       },
     ],
-    metaTitle: "Window Cleaning Add-On — Interior & Exterior Glass | Man With a Mop",
+    metaTitle: "Window Cleaning Add-On — Interior & Exterior Glass",
     metaDescription:
       "Window cleaning add-on across Northwest Houston — streak-free interior & reachable exterior glass, sills and tracks. Add to any house clean. Free quotes.",
   },

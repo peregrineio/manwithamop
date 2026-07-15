@@ -76,7 +76,7 @@ export function TableOfContents({ headings }: { headings: Heading[] }) {
   return (
     <>
       {/* Desktop: sticky sidebar */}
-      <div className="hidden lg:block sticky top-24 w-[220px] shrink-0">
+      <div className="hidden lg:block self-start sticky top-24 w-[220px] shrink-0">
         {tocContent}
       </div>
 

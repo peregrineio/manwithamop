@@ -8,7 +8,7 @@ import {
 } from "@/data/services";
 
 export const metadata: Metadata = {
-  title: "Cleaning Services & Rate Card — Northwest Houston | Man With a Mop",
+  title: "Cleaning Services & Rate Card — Northwest Houston",
   description:
     "Honest, posted pricing for house and business cleaning across Northwest Houston — standard, deep, move-in/out, recurring, plus a window add-on. Free quotes.",
   alternates: { canonical: "/services" },
